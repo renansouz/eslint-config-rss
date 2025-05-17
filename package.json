@@ -1,20 +1,12 @@
 {
-  "name": "@rss/eslint-config",
-  "version": "1.0.0",
-  "private": false,
-  "description": "Enterprise-grade ESLint configuration for React, Next.js, Angular, and Node.js projects (with optional Tailwind support)",
-  "main": "react.js",
-  "license": "MIT",
-  "repository": {
-    "url": "https://github.com/renansouz/eslint-config-rss"
-  },
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
-  },
-   "devDependencies": {
-    "eslint": "^8.56.0"
   }
 }
